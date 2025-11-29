@@ -1,7 +1,8 @@
 import styles from "./Hero.module.css";
+
 import berry from "../../assets/images/berry.png";
-import berry1 from "../../assets/images/berry-1.png";
-import berry2 from "../../assets/images/berry-2.png";
+import berry1 from "../../assets/images/berry (1).png";
+import berry2 from "../../assets/images/berry (2).png";
 import leaf from "../../assets/images/leaf.png";
 import bg from "../../assets/images/bg.png";
 

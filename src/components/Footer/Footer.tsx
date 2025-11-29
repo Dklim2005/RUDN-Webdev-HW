@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
-import intervalImg from "../../assets/images/interval.png";
+import intervalImg from "../../assets/images/05 1.png";
+
 
 export default function Footer() {
   return (

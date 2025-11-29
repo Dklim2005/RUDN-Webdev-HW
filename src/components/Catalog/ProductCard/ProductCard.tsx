@@ -21,6 +21,7 @@ export default function ProductCard({ product }: { product: Product }) {
     <div className={styles.card}>
       <img
         src={`/src/assets/images/${product.image}`}
+
         className={styles.image}
       />
 
