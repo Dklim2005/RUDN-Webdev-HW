@@ -1,0 +1,29 @@
+.gallery {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 487px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.image {
+  width: 487px;
+  height: 344px;
+  object-fit: cover;
+}
