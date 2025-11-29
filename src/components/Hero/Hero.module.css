@@ -1,8 +1,8 @@
 .hero {
   position: relative;
   height: 1080px;
-  background-size: contain;
-  background-position: top center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: white;
   display: flex;

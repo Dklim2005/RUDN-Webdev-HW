@@ -5,7 +5,9 @@
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid rgba(126, 134, 142, 0.1);
-  color: white;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 10;
 }
 
 .logotype {
