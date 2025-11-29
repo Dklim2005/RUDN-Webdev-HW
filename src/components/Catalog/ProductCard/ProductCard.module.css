@@ -1,0 +1,42 @@
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 350px;
+  height: 215px;
+  object-fit: cover;
+}
+
+.info {
+  border: 1px solid rgba(194, 198, 208, 0.5);
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.info h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.info span {
+  font-size: 16px;
+}
+
+.button {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fed84c;
+  padding: 20px 40px;
+  border-radius: 8px;
+  border: none;
+}
