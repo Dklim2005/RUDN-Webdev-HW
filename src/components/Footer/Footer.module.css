@@ -1,0 +1,64 @@
+.interval {
+  height: 284px;
+  background-color: #081130;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intervalImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #081130;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 60px 0;
+}
+
+.form {
+  text-align: center;
+}
+
+.form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.callback {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  min-width: 260px;
+  font-size: 16px;
+  color: black;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fed84c;
+  font-size: 18px;
+  font-weight: 500;
+}
