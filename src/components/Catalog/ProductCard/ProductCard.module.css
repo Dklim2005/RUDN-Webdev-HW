@@ -20,23 +20,60 @@
 .info h4 {
   font-size: 24px;
   font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.info span {
+  font-size: 16px;
+  line-height: 150%;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .info p {
   font-size: 24px;
   font-weight: 500;
-}
-
-.info span {
-  font-size: 16px;
+  margin: 0 0 15px 0;
 }
 
 .button {
-  margin-top: 15px;
   font-size: 18px;
   font-weight: 500;
   background-color: #fed84c;
   padding: 20px 40px;
   border-radius: 8px;
   border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.counterRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counterBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fed84c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.counterValue {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: 500;
 }
