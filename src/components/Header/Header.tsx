@@ -25,7 +25,9 @@ export default function Header() {
             <div>
               <span className={styles.phoneNumber}>8 (812) 844-95-49</span>
               <br />
-              <span className={styles.phoneHours}>Ежедневно с 9:00 до 20:00</span>
+              <span className={styles.phoneHours}>
+                Ежедневно с 9:00 до 20:00
+              </span>
             </div>
           </div>
         </div>
